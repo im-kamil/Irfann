@@ -46,7 +46,7 @@ const SocialIcons = (props) => {
         animate={{scale:[0,1,1,5,1]}}
         transition= {{type:'spring', duration:1, delay:1}}
         >
-            <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname:"//https://github.com/im-kamil"}}>
+            <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname:"//github.com/im-kamil"}}>
                 <Github width={25} height={25} fill={props.theme === "dark" ? darkTheme.text : darkTheme.body} />
             </NavLink>
         </motion.div>
@@ -55,7 +55,7 @@ const SocialIcons = (props) => {
         animate={{scale:[0,1,1,5,1]}}
         transition= {{type:'spring', duration:1, delay:1.2}}
         >
-            <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname:"//https://www.linkedin.com/in/md-kamil-nasar-6b3b19200//"}}>
+            <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname:"//www.linkedin.com/in/md-kamil-nasar-6b3b19200//"}}>
                 <LinkedIn width={25} height={25} fill={props.theme === "dark" ? darkTheme.text : darkTheme.body} />
             </NavLink>
         </motion.div>
@@ -64,7 +64,7 @@ const SocialIcons = (props) => {
         animate={{scale:[0,1,1,5,1]}}
         transition= {{type:'spring', duration:1, delay:1.4}}
         >
-            <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname:"//https://twitter.com/kamil_nasar"}}>
+            <NavLink style={{color: 'inherit'}} target="_blank" to={{pathname:"//twitter.com/kamil_nasar"}}>
                 <Twitter width={25} height={25} fill={props.theme === "dark" ? darkTheme.text : darkTheme.body} />
             </NavLink>
         </motion.div>
